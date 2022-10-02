@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6fd2a79b6f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1><span>S</span>arathkumar</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h2>Hi, I'm <span>Sarath</span><br>From Tuticorin</h2>
+            </div>
+        </div>
+    </div>
+<!---------------------------------------about------------------------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/IMG-0848.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h2 class="sub-title">About Me</h2>
+                    <p>My name is Sarathkumar. I have Completed my BSC Computer Science in the year 2020.
+                        Currently pushing my Master Degree in Alagappa University in MCA. I am punctual
+                        and can be counted upon to finish what i start. I consider myself Hardworking,
+                        Honest & Co-operative.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('qualification')">Additional Qualification</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li><span>Currently</span><br>MCA<br>Alagappa University,Karaikudi-630003<br>It's a
+                                Distance Education College</li>
+                            <li><span>2020</span><br>BSC ComputerScience<br>V.O.Chidambaram
+                                College,Tuticorin-628002<br>Graduated with CGPA 7</li>
+                            <li><span>2016</span><br>HSC<br>Karapettai Nadar Hr Sec School,Tuticorin-628001<br>Group
+                                Computer Science With 67%</li>
+                            <li><span>2014</span><br>SSLC<br>CM Hr Sec School-Renganathapuram,Tuticorin-628002<br>With 89%</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/ios apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="qualification">
+                        <ul>
+                            <li><span>Windows</span><br>Microsoft Office</li>
+                            <li><span>Adobe</span><br>Adobe Premier Pro, Adobe Photoshop, Adobe Illuslator </li>
+                            <li><span>Additional Qualification</span><br>Type Writing, Painting, Singing & Acting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------------------------------------------Services--------------------------------------->
+<div id="services">
+    <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Design</h3>
+                <p>Using HTML,Java , Javascript , Python etc....</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h3>UI/UX Design</h3>
+                <p>Using HTML,Java , Javascript , Python etc....</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h3>App Design</h3>
+                <p>Using HTML,Java , Javascript , Python etc....</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------------portfolio------------------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h2 class="sub-title">My Work</h2>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/download.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the Talented peoples around the  world.
+                    Download it from Playstore.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/download (1).jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the Talented peoples around the  world.
+                    Download it from Playstore.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/images.jpg">
+                <div class="layer">
+                    <h3>Online Shoppong App</h3>
+                    <p>The app connects you to the Talented peoples around the  world.
+                    Download it from Playstore.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--------------------------------------Contact------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p><i class="fa-solid fa-envelope"></i>srisarath67@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91-8608887842</p>
+                <div class="social-icons">
+                    <a href="https://WWW.facebook.com/srisarath67"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Srisarath97"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/srisarath1997/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="http://linkedin.com/in/sarath-kumar-1139a4227"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="image/Resume Sarathkumar S.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"required></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @Sarathkumar. Made with <i class="fa-sharp fa-solid fa-heart"></i> by Using Html.</p>
+    </div>
+</div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu()
+        {
+            sidemeu.style.right = "0";
+        }
+        function closemenu()
+        {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwtUMjYERfnG8aUWbdXrlvncDiuI9wgoW7RwqRmIY5HX6AvcljCneVrql13x5VhjC_L/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
